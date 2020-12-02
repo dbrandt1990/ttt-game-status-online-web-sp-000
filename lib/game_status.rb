@@ -16,7 +16,10 @@ WIN_COMBINATIONS =[
   ]
   
 def won?(board)
+ for each win_condition in 
+ WIN_COMBINATIONS
  
+ end
 end
 
 def full?(board)
