@@ -15,7 +15,7 @@ WIN_COMBINATIONS =[
   [2,5,8]
   ]
   
-def won?(board, player)
+def won?(board)
  
 end
 
