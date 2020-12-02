@@ -23,6 +23,7 @@ def won?(board)
  if board[a] == "X" && board[b] == "X" && board[c] == "X"
    return i
    elsif board[a] == "O" && board[b] == "O" && board[c] == "O"
+   return i
   end
  end
 end
