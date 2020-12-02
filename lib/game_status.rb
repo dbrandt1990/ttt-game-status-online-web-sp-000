@@ -27,11 +27,10 @@ def won?(board)
   end
  end
  
- if draw?(board)
+ if draw?(board) || board.all? {||}
    false
  end
  
-board.all? { |space| space == " " }
 end
 
 def full?(board)
