@@ -16,12 +16,12 @@ WIN_COMBINATIONS =[
   ]
   
 def won?(board)
- for each i in 
- WIN_COMBINATIONS
+ WIN_COMBINATIONS.each do |i| 
  a = i[0]
  b = i[1]
  c = i[2]
  if board[a] == "X" && board[b] == "X" && board[c] == "X"
+   return i
  end
 end
 
