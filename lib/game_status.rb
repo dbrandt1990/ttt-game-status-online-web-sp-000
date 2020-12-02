@@ -62,7 +62,7 @@ def winner(board)
      "X"
     elsif space == "O"
      "O"
-  else 
-    nil
+     else 
+       nil
   end
 end
