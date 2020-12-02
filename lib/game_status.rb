@@ -31,6 +31,7 @@ def won?(board)
  end
  if board.all? |space| space == " "
    false
+ end
 end
 
 def full?(board)
