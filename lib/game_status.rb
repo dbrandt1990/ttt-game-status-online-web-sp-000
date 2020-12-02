@@ -21,10 +21,6 @@ def won?(board)
  b = i[1]
  c = i[2]
  
- PLAYER_X = [true, false]
- 
- PLAYER_Y = [true, false]
- 
  if board[a] == "X" && board[b] == "X" && board[c] == "X"
    return i
    elsif board[a] == "O" && board[b] == "O" && board[c] == "O"
