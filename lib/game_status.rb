@@ -59,10 +59,13 @@ def winner(board)
   i = won?(board)
   space = board[i[0]]
   
+  if !won?(board)
+    nil
+  end
+  
   if  space == "X"
      "X"
     elsif space == "O"
      "O"
-      else nil
   end
 end
