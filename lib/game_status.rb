@@ -60,7 +60,6 @@ def winner(board)
   if !over?(board)
     return nil
   end
-  
   index = won?(board)[0]
   space = board[index]
   
