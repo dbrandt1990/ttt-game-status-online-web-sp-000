@@ -20,6 +20,7 @@ def won?(board)
  a = i[0]
  b = i[1]
  c = i[2]
+ 
  if board[a] == "X" && board[b] == "X" && board[c] == "X"
    return i
    elsif board[a] == "O" && board[b] == "O" && board[c] == "O"
@@ -27,8 +28,9 @@ def won?(board)
   end
  end
  
- if full?(boa)
+ if full?(board) || board.all?{ |i| i == " " }
    false
+  end
  end
  
 end
