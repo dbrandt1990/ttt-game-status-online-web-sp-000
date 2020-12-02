@@ -30,7 +30,6 @@ def won?(board)
  
  if full?(board) || board.all?{ |i| i == " " }
    false
-  end
  end
  
 end
