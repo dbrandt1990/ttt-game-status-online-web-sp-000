@@ -49,6 +49,7 @@ def over?(board)
   if won?(board) true
   elsif full?(board) true
   else false 
+  end
 end
 
 def winner(board)
