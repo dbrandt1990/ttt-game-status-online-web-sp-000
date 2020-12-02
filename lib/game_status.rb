@@ -29,7 +29,7 @@ def won?(board)
  if draw?(board)
    false
  end
- if board.all? |space| space == " "
+ if board.all? { |space| space == " " }
    false
  end
 end
