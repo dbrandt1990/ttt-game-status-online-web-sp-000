@@ -50,3 +50,7 @@ def over?(board)
   elsif full?(board) true
   else false 
 end
+
+def winner(board)
+  
+end
