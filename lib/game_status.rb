@@ -58,6 +58,7 @@ end
 def winner(board)
   i = won?(board)
   space = board[i[0]]
+  
   if  space == "X"
      "X"
     elsif space == "O"
