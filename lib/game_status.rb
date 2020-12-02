@@ -27,7 +27,7 @@ def won?(board)
   end
  end
  
- if draw?(board) || board.all? {||}
+ if draw?(board) || board.all? {|space| space == " "}
    false
  end
  
