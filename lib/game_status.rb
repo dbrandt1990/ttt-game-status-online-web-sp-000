@@ -55,7 +55,7 @@ def over?(board)
   end
 end
 
-def winner(board)
+def winner?(board)
   i = won?(board)
   space = board[i[0]]
   
