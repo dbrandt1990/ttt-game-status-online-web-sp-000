@@ -22,6 +22,7 @@ def won?(board)
  c = i[2]
  if board[a] == "X" && board[b] == "X" && board[c] == "X"
    return i
+  end
  end
 end
 
